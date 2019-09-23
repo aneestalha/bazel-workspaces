@@ -11,6 +11,8 @@ cc_library(
         "-lgtest",
         "-lgtest_main",
     ],
+    visibility = ["//visibility:public"],
+    linkstatic = False,
 )
 
 cc_library(
@@ -26,4 +28,6 @@ cc_library(
         "-lgtest",
         "-lgtest_main",
     ],
+    visibility = ["//visibility:public"],
+    linkstatic = False,
 )
