@@ -1,5 +1,5 @@
 cc_library(
-    name = "all",
+    name = "nanopb",
     hdrs = glob(["thirdparty_build/include/pb*.h"]),
     copts = [],
     linkopts = ["-lprotobuf-nanopb"],
